@@ -1,0 +1,56 @@
+.multiple {
+  .multiselect {
+    &__select {
+      &:before {
+        top: 70%;
+      }
+    }
+    &__tags {
+      min-height: auto;
+      max-height: 60px;
+      padding-top: 6px;
+      overflow:scroll;
+    }
+    &__input {
+      display: inline;
+      width: 50% !important;
+      position: relative;
+      line-height: 24px;
+      padding-left: 0 !important;
+    }
+  }
+}
+.multiselect {
+  &__option{
+    background: none;
+    color: $grey;
+    &:hover {
+      background-color: $lighter-grey
+    }
+    .image {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: inline-block;
+      background-size: cover;
+      margin-right: 16px;
+      background-position: center center;
+    }
+    .description {
+      display: inline-block;
+      .title {
+        font-size: 14px;
+        color: $grey;
+        margin-bottom: 4px;
+      }
+      small {
+        font-size: 12px;
+      }
+    }
+    &--selected.multiselect__option--highlight {
+      height: 100%;
+      color: $brand-primary;
+      background: none;
+    }
+  }
+}
