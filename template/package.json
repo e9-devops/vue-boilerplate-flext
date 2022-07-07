@@ -15,7 +15,7 @@
     "bootstrap-vue": "^2.0.2",
     "core-js": "^2.6.5",
     "jquery": "^3.4.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "vue": "^2.6.10",
     "vue-advanced-cropper": "^0.12.5",
     "vue-color": "^2.7.0",
